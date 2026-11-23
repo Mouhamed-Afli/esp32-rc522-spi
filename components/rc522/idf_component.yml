@@ -1,0 +1,4 @@
+version: "1.0.0"
+description: "Modular MFRC522 RFID reader component for ESP-IDF"
+dependencies:
+  idf: ">=6.0"

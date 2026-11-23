@@ -1,0 +1,36 @@
+# ---- ESP-IDF build output ----
+build/
+.dist/
+dist/
+*.bin
+*.elf
+*.map
+*.o
+*.a
+*.d
+
+# ---- ESP-IDF generated / local config ----
+sdkconfig.old
+managed_components/
+.cache/
+
+# ---- Editors / IDEs (machine-specific settings) ----
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*~
+
+# ---- Python (ESP-IDF tooling) ----
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Logs ----
+*.log
